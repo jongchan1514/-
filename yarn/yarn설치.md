@@ -64,3 +64,5 @@ NPM으로 설치할 수도 있습니다.
 > * [scoop](https://scoop.sh/)
 > * [NPM](https://www.npmjs.com/)
 
+윈도우 환경에서 설치 시 hadoop이 설치 되어있다면 hadoop yarn과 충돌이 생겨 오류가 나는 경우가 있다.
+분리 시켜서 사용하는것을 추천한다.
