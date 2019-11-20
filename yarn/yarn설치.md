@@ -50,7 +50,7 @@ NPM으로 설치할 수도 있습니다.
 
 설치 후 전역 사용에 문제가 있다면 Path 설정을 해줘야 합니다.
 
-.profile, .bash_profile, .bashrc, .zshrc 등…
+<code>.profile</code>, <code>.bash_profile</code>, <code>.bashrc</code>, <code>.zshrc</code> 등…
 
 <pre>
   <code>
