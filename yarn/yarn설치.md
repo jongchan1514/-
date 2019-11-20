@@ -3,8 +3,9 @@
 # Yarn 설치
 Yarn은 다양한 OS의 설치를 지원합니다.
 
-### macOS
-Homebrew를 사용하는 설치
+
+# macOS
+### Homebrew를 사용하는 설치
 <pre>
   <code>
    $ brew install yarn
@@ -16,6 +17,7 @@ NVM 같은 버전 관리 툴을 사용해야 한다면 Node.js의 설치를 제�
   $ brew install yarn --without-node
   </code>
 </pre>
+
 
 # Windows
 ### Chocolatey를 사용하는 설치
@@ -32,7 +34,7 @@ NVM 같은 버전 관리 툴을 사용해야 한다면 Node.js의 설치를 제�
   </code>
 </pre>
 
-## NPM
+# NPM
 NPM으로 설치할 수도 있습니다.
 <pre>
   <code>
@@ -50,4 +52,9 @@ NPM으로 설치할 수도 있습니다.
 
 .profile, .bash_profile, .bashrc, .zshrc 등…
 
-$ export PATH="$PATH:/opt/yarn-[version]/bin"
+<pre>
+  <code>
+    $ export PATH="$PATH:/opt/yarn-[version]/bin"
+  </code>
+</pre>
+
