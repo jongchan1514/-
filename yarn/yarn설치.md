@@ -58,3 +58,8 @@ NPM으로 설치할 수도 있습니다.
   </code>
 </pre>
 
+### 참조
+> * [chocolatey](https://chocolatey.org/)
+> * [scoop](https://scoop.sh/)
+> * [NPM](https://www.npmjs.com/)
+
