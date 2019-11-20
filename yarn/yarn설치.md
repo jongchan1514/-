@@ -1,4 +1,4 @@
-<img src="https://heropy.blog/css/images/vendor_icons/yarn.png" width="189" height="80"></img>
+<img src="https://heropy.blog/css/images/vendor_icons/yarn.png"></img>
 
 # Yarn 설치
 Yarn은 다양한 OS의 설치를 지원합니다.
