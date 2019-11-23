@@ -2,7 +2,7 @@
 <img src="https://velopert.com/wp-content/uploads/2016/02/nodejs-2560x1440-1024x576.png"></img>
 > * [Node 소개](https://github.com/jongchan1514/Study/blob/master/node/Node%EC%86%8C%EA%B0%9C.md)
 > * [Node 시작](https://github.com/jongchan1514/Study/blob/master/node/Node%EC%8B%9C%EC%9E%91.md)
-> * [Node REPL터미널]()
+> * [Node REPL터미널](https://github.com/jongchan1514/Study/blob/master/node/Node_REPL%ED%84%B0%EB%AF%B8%EB%84%90.md)
 > * [Node NPM](https://github.com/jongchan1514/Study/blob/master/node/Node_NPM.md)
 # yarn
 <img src="https://dpo58vnxvi356.cloudfront.net/simsim0709-gmail-com/image/46d429b8-2896-4a92-8f9d-44cbd5b2568a.jpeg"></img>
