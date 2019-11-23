@@ -229,14 +229,14 @@ git log 명령어로 조회해본 결과 저희는 두건의 커밋 기록이 �
 앞부분의 몇자리만 입력하여도 겹치는 아이디가 없으면 git이 알아서 판단하여 해당 시점으로 파일 상태를 되돌립니다.
 
 
-<img src=""></img>
+<img src="https://t1.daumcdn.net/cfile/tistory/2456F74B5857C8351F"></img>
 ##### [그림 15] git checkout 명령어로 커밋 시점 되돌리기
 
 
 git의 커밋 시점이 변경되었습니다. 그럼 윈도우 탐색기로 해당 폴더를 다시 볼까요?
 
 
-<img src="https://t1.daumcdn.net/cfile/tistory/2456F74B5857C8351F"></img>
+<img src="https://t1.daumcdn.net/cfile/tistory/22441E4D5857C8472A"></img>
 ##### [그림 16] git checkout 명령어를 통해 과거 커밋 시점으로 돌아가 파일이 원복된 모습
 
 
