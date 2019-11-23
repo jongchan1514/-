@@ -79,6 +79,7 @@ git은 폴더(디렉토리) 단위로 저장소를 생성할 수 있습니다.
 `Initialized empty Git repository in …` 과 같은 출력이 나오면 정상적으로 저장소가 생성된 것입니다. 윈도우 탐색기로 해당 폴더를 보면, 숨김폴더로 `.git`이라는 폴더가 생성되어 있는 것을 확인하실 수 있습니다.
 
 <br>
+
 <img src="https://t1.daumcdn.net/cfile/tistory/2425AA365857BD401D"></img>
 ##### [그림3] git 저장소가 생성된 애국가 폴더
 
@@ -96,6 +97,7 @@ git은 폴더(디렉토리) 단위로 저장소를 생성할 수 있습니다.
 정말 그런지 확인해 볼까요? 그럼 애국가 저장소내에 “애국가1절.txt” 이라는 텍스트 파일을 생성해 보도록 하겠습니다.
 
 <br>
+
 <img src="https://t1.daumcdn.net/cfile/tistory/273F26475857C6FA1E"></img>
 ##### [그림 4] 애국가 저장소에 생성된 애국가1절.txt 파일
 
@@ -108,6 +110,7 @@ git은 폴더(디렉토리) 단위로 저장소를 생성할 수 있습니다.
 </pre>
 
 <br>
+
 <img src="https://t1.daumcdn.net/cfile/tistory/2137E34F5857C7182D"></img>
 ##### [그림 5] git status 명령어로 확인해본 애국가1절.txt
 
@@ -122,6 +125,7 @@ git은 폴더(디렉토리) 단위로 저장소를 생성할 수 있습니다.
 </pre>
 
 <br>
+
 <img src="https://t1.daumcdn.net/cfile/tistory/272E7B475857C73430"></img>
 ##### [그림 6] git add 명령어를 통한 파일 상태 변경
 
@@ -133,6 +137,7 @@ add 명령어를 통해 파일의 상태를 변경하였다면 status 명령어�
 이제 “애국가1절.txt”는 git의 이력관리 대상이 되었습니다. 그럼 이 상태에서 파일을 수정하면 어떻게 될까요? 현재는 아무 내용도 없는 “애국가1절.txt”파일에 애국가 1절 가사를 입력한 뒤 저장해 보겠습니다.
 
 <br>
+
 <img src="https://t1.daumcdn.net/cfile/tistory/253AEA485857C75312"></img>
 ##### [그림 7] 애국가1절 추가 및 저장
 
@@ -141,6 +146,7 @@ add 명령어를 통해 파일의 상태를 변경하였다면 status 명령어�
 status 명령어를 통해 상태를 살펴보니 unstaged 상태로 변경되었네요.
 
 <br>
+
 <img src="https://t1.daumcdn.net/cfile/tistory/25394A475857C76325"></img>
 ##### [그림 8] 파일 내용이 변경되어 unstaged 상태가 된 애국가1절.txt
 
@@ -159,6 +165,7 @@ tracked 상태의 파일은 수정이 되면 git이 자동으로 감지하여 un
 </pre>
 
 <br>
+
 <img src="https://t1.daumcdn.net/cfile/tistory/263A84485857C78414"></img>
 ##### [그림 9] git add 명령어를 통하여 다시 staged 상태로 된 애국가1절.txt
 
@@ -186,6 +193,7 @@ tracked 상태의 파일은 수정이 되면 git이 자동으로 감지하여 un
 </pre>
 
 <br>
+
 <img src="https://t1.daumcdn.net/cfile/tistory/23529A4F5857C7AA16"></img>
 ##### [그림 10] git log 명령어로 커밋메세지와 commit id 확인
 
@@ -199,6 +207,7 @@ tracked 상태의 파일은 수정이 되면 git이 자동으로 감지하여 un
 일단, 실험을 위해 저장소내의 “애국가1절.txt”를 삭제해 보도록 하겠습니다.
 
 <br>
+
 <img src="https://t1.daumcdn.net/cfile/tistory/2550294F5857C7D318"></img>
 ##### [그림 11] 사라진 애국가1절.txt
 
@@ -207,6 +216,7 @@ tracked 상태의 파일은 수정이 되면 git이 자동으로 감지하여 un
 “애국가1절.txt” 파일이 사라지면 git은 어떻게 판단할까요? status 명령어로 확인해보겠습니다.
 
 <br>
+
 <img src="https://t1.daumcdn.net/cfile/tistory/233F0E4F5857C7E12B"></img>
 ##### [그림 12] git status로 확인된 deleted 상태의 애국가1절.txt
 
@@ -219,6 +229,7 @@ tracked 상태의 파일은 수정이 되면 git이 자동으로 감지하여 un
 해볼까요? “애국가1절.txt”가 사라진 시점을 커밋해 보도록 하겠습니다.
 
 <br>
+
 <img src="https://t1.daumcdn.net/cfile/tistory/217F144A5857C7F01D"></img>
 ##### [그림 13] git add & commit 명령어를 통해 애국가1절.txt가 사라진 시점을 커밋
 
@@ -237,6 +248,7 @@ tracked 상태의 파일은 수정이 되면 git이 자동으로 감지하여 un
 돌아가고 싶은 커밋 시점을 알기 위해서 git log 명령어를 통해 커밋아이디를 확인해보도록 하겠습니다.
 
 <br>
+
 <img src="https://t1.daumcdn.net/cfile/tistory/23467A4F5857C82225"></img>
 ##### [그림 14] git log 명령어로 조회해본 커밋 기록들
 
@@ -251,6 +263,7 @@ git log 명령어로 조회해본 결과 저희는 두건의 커밋 기록이 �
 앞부분의 몇자리만 입력하여도 겹치는 아이디가 없으면 git이 알아서 판단하여 해당 시점으로 파일 상태를 되돌립니다.
 
 <br>
+
 <img src="https://t1.daumcdn.net/cfile/tistory/2456F74B5857C8351F"></img>
 ##### [그림 15] git checkout 명령어로 커밋 시점 되돌리기
 
@@ -259,6 +272,7 @@ git log 명령어로 조회해본 결과 저희는 두건의 커밋 기록이 �
 git의 커밋 시점이 변경되었습니다. 그럼 윈도우 탐색기로 해당 폴더를 다시 볼까요?
 
 <br>
+
 <img src="https://t1.daumcdn.net/cfile/tistory/22441E4D5857C8472A"></img>
 ##### [그림 16] git checkout 명령어를 통해 과거 커밋 시점으로 돌아가 파일이 원복된 모습
 
@@ -271,6 +285,8 @@ checkout 명령어를 통해 과거 커밋 시점으로 되돌아가니 파일�
 <pre>
  $ git checkout [커밋아이디] [파일명]
 </pre>
+
+<br>
 
 <img src="https://t1.daumcdn.net/cfile/tistory/213CDB495857C86C24"></img>
 <br>
@@ -285,6 +301,7 @@ checkout 명령어를 통해 과거 커밋 시점으로 되돌아가니 파일�
 여기서 master는 git의 커밋아이디를 뜻하는 것은 아니고, 브랜치라는 개념인데요. 이 부분까지 설명드리자면 글의 분량이 너무너무 길어지기 때문에 다음에 자세히 다루도록 하겠습니다. 그냥 마지막으로 ‘작업하던 시점으로 돌아갈때는 git checkout master를 사용한다!’ 라고 기억해 두시기 바랍니다.
 
 <br>
+
 <img src="https://t1.daumcdn.net/cfile/tistory/27559F4E5857C8790E"></img>
 ##### [그림 17] git checkout master 명령을 통해 마지막 작업 시점으로 복귀
 
@@ -292,6 +309,7 @@ checkout 명령어를 통해 과거 커밋 시점으로 되돌아가니 파일�
 
 마지막 작업 시점으로 돌아오고나니 받아들이고 싶지 않은 현실이 있습니다. “애국가1절.txt”가 다시 사라져 있습니다. 그렇다고 당황하지 마시고, 위에서 설명드린 `git checkout <과거commit id> <복원하고픈 파일명>` 으로 파일을 되살려 보겠습니다.
 
+<br>
 
 <img src="https://t1.daumcdn.net/cfile/tistory/26410E4E5857C88924"></img>
 ##### [그림 18] checkout <과거commit id> <복원하고픈 파일명> 명령어로 되살린 파일
