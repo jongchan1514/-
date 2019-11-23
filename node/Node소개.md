@@ -1,3 +1,4 @@
+<img src="https://velopert.com/wp-content/uploads/2016/02/nodejs-2560x1440-1024x576.png"></img>
 # Node.js 가 뭐지?
 NodeJS 는 2009년에 Ryan Dahl에 의해 개발되었으며 구글 크롬의 자바스크립트 엔진 (V8 Engine) 에 기반해 만들어진 서버 사이드 플랫폼입니다. 
 
