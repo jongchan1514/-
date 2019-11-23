@@ -16,8 +16,8 @@ http.createServer() 의 매개변수로는 request와 response를 매개변수�
 다음 코드는 언제나 “Hello World” 를 리턴하는 포트 8081의 웹서버를 생성해줍니다.
 
     http.createServer(function(request, response){
-    response.writeHead(200, {'Content-Type': 'text/plain'});
-    response.end("Hello World\n");
+        response.writeHead(200, {'Content-Type': 'text/plain'});
+        response.end("Hello World\n");
     }).listen(8081); 
 
 ### 3단계: 서버 테스트 해보기
