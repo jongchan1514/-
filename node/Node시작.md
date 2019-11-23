@@ -17,20 +17,12 @@ http.createServer() 의 매개변수로는 request와 response를 매개변수�
 <pre>
     <code>
         http.createServer(function(request, response){
-        # 
-        HTTP 헤더 전송
-        HTTP Status: 200 : OK
-        Content Type: text/plain
-        #
-        
         response.writeHead(200, {'Content-Type': 'text/plain'});
-        
-        #Response Body 를 "Hello World" 로 설정
-        
-    response.end("Hello World\n");
-}).listen(8081);
+        response.end("Hello World\n");
+        }).listen(8081); 
+    </code>
 </pre>
-3단계: 서버 테스트 해보기
+### 3단계: 서버 테스트 해보기
 1단계와 2단계를 파일 main.js에 합쳐서 작성해보세요
 
 var http = require("http");
