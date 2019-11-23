@@ -12,5 +12,6 @@ node.js 사용법 정리
 
 
 ### 기타
+> * [Git](https://git-scm.com/book/ko/v2)
 > * [OpenJDK](https://jdk.java.net/archive/)
 > * [Eclipse](https://www.eclipse.org/)
