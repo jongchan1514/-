@@ -62,7 +62,7 @@ git은 폴더(디렉토리) 단위로 저장소를 생성할 수 있습니다.
 그 다음, 해당 폴더를 마우스로 우클릭을 한 뒤, 표시되는 컨텍스트 메뉴에서 “Git Bash Here” 를 선택합니다.
 
 <img src="https://t1.daumcdn.net/cfile/tistory/252A23505857BCE61D"></img>
-[그림 1] 애국가 폴더로 이동 후, 마우스 우클릭 -> Git Bash Here
+##### [그림 1] 애국가 폴더로 이동 후, 마우스 우클릭 -> Git Bash Here
 
 
 
