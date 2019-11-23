@@ -1,13 +1,18 @@
+<img src="https://velopert.com/wp-content/uploads/2016/02/nodejs-2560x1440-1024x576.png"></img>
+# REPL
 REPL 은 Read Eval Print Loop의 약자입니다. 이는 윈도우 커맨드, 혹은 UNIX/LINUX Shell 처럼 사용자가 커맨드를 입력하면 시스템이 값을 반환하는 환경을 가르킵니다.
 
 Node.js는 REPL 환경과 함께 제공되며 다음과 같은 기능을 수행 할 수 있습니다.
 
-Read – 유저의 값을 입력 받아 JavaScript 데이터 구조로 메모리에 저장합니다.
-Eval – 데이터를 처리(Evaluate) 합니다.
-Print – 결과값을 출력합니다.
-Loop – Read, Eval, Print 를 유저가 Ctrl+C를 두번 눌러 종료할때까지 반복합니다.
-Node.js 의 REPL 환경은 자바스크립트 코드를 테스팅 및 디버깅할때 유용하게 사용됩니다.
-
+<pre>
+ <code>
+  Read – 유저의 값을 입력 받아 JavaScript 데이터 구조로 메모리에 저장합니다.
+  Eval – 데이터를 처리(Evaluate) 합니다.
+  Print – 결과값을 출력합니다.
+  Loop – Read, Eval, Print 를 유저가 Ctrl+C를 두번 눌러 종료할때까지 반복합니다.
+  Node.js 의 REPL 환경은 자바스크립트 코드를 테스팅 및 디버깅할때 유용하게 사용됩니다.
+ </code>
+</pre>
  
 
 REPL 시작하기
