@@ -5,47 +5,53 @@ REPL 은 Read Eval Print Loop의 약자입니다. 이는 윈도우 커맨드, �
 Node.js는 REPL 환경과 함께 제공되며 다음과 같은 기능을 수행 할 수 있습니다.
 
 <pre>
- <code>
   Read – 유저의 값을 입력 받아 JavaScript 데이터 구조로 메모리에 저장합니다.
   Eval – 데이터를 처리(Evaluate) 합니다.
   Print – 결과값을 출력합니다.
   Loop – Read, Eval, Print 를 유저가 Ctrl+C를 두번 눌러 종료할때까지 반복합니다.
   Node.js 의 REPL 환경은 자바스크립트 코드를 테스팅 및 디버깅할때 유용하게 사용됩니다.
- </code>
 </pre>
- 
 
-REPL 시작하기
+### REPL 시작하기
 REPL 은 쉘/콘솔에 파라미터 없이 node 를 실행하여 실행 할 수 있습니다.
 
-$ node
->
-간단한 표현식 사용
+<pre>
+  $ node
+  >
+</pre>
+
+### 간단한 표현식 사용
 Node.js REPL 커맨드 프롬프트에 간단한 연산자를 사용해봅시다.
 
-$ node
-> 1 + 5
-6
-> 1 + ( 6 / 2 ) - 3
-1
->
-변수 사용
+<pre>
+ $ node
+ > 1 + 5
+ 6
+ > 1 + ( 6 / 2 ) - 3
+ 1
+ >
+</pre>
+
+### 변수 사용
 다른 스크립트처럼, 변수에 값을 저장하고 나중에 다시 출력 할 수 있습니다.
 
 만약 var 키워드를 사용하면 명령어를 입력했을때 변수의 값이 출력되지 않고, var 키워드를 사용하지 않으면 값이 출력됩니다.
 
 또한, console.log() 를 통해 출력 할 수 있습니다.
 
-$ node
-> x = 10
-10
-> var y = 5
-undefined
-> x + y
-15
-> console.log("Value is " + ( x + y ))
-Value is 15
-undefined
+<pre>
+ $ node
+ > x = 10
+ 10
+ > var y = 5
+ undefined
+ > x + y
+ 15
+ > console.log("Value is " + ( x + y ))
+ Value is 15
+ undefined
+</pre>
+
 Multi-Line 표현식 사용
 do-while 루프를 REPL에서 실행해봅시다.
 
