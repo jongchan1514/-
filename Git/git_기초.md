@@ -64,11 +64,12 @@ git은 폴더(디렉토리) 단위로 저장소를 생성할 수 있습니다.
 <img src="https://t1.daumcdn.net/cfile/tistory/252A23505857BCE61D"></img>
 ##### [그림 1] 애국가 폴더로 이동 후, 마우스 우클릭 -> Git Bash Here
 
-
+<br>
 
 <img src="https://t1.daumcdn.net/cfile/tistory/241B323C5857BD171D"></img>
 ##### [그림 2] Git Bash Here CLI 명령어 창
-
+<br>
+<br>
 
 마지막으로 [그림2]과 같은 CLI 창이 생성되었으면, 아래의 명령어를 입력합니다.
 <pre>
