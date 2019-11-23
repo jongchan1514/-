@@ -67,7 +67,7 @@ git은 폴더(디렉토리) 단위로 저장소를 생성할 수 있습니다.
 
 
 <img src="https://t1.daumcdn.net/cfile/tistory/241B323C5857BD171D"></img>
-[그림 2] Git Bash Here CLI 명령어 창
+##### [그림 2] Git Bash Here CLI 명령어 창
 
 
 마지막으로 [그림2]과 같은 CLI 창이 생성되었으면, 아래의 명령어를 입력합니다.
@@ -78,7 +78,7 @@ git은 폴더(디렉토리) 단위로 저장소를 생성할 수 있습니다.
 
 
 <img src="https://t1.daumcdn.net/cfile/tistory/2425AA365857BD401D"></img>
-[그림3] git 저장소가 생성된 애국가 폴더
+##### [그림3] git 저장소가 생성된 애국가 폴더
 
 ### 2. 파일의 생성
 생성된 저장소에는 일반 폴더와 마찬가지로 파일을 생성, 수정, 삭제할 수 있습니다.
@@ -93,7 +93,7 @@ git은 폴더(디렉토리) 단위로 저장소를 생성할 수 있습니다.
 
 
 <img src="https://t1.daumcdn.net/cfile/tistory/273F26475857C6FA1E"></img>
-[그림 4] 애국가 저장소에 생성된 애국가1절.txt 파일
+##### [그림 4] 애국가 저장소에 생성된 애국가1절.txt 파일
 
 
 파일이 생성되었다면 아래의 명령어로 파일의 상태를 조회할 수 있습니다.
@@ -103,7 +103,7 @@ git은 폴더(디렉토리) 단위로 저장소를 생성할 수 있습니다.
 </pre>
 
 <img src="https://t1.daumcdn.net/cfile/tistory/2137E34F5857C7182D"></img>
-[그림 5] git status 명령어로 확인해본 애국가1절.txt
+##### [그림 5] git status 명령어로 확인해본 애국가1절.txt
 
 
 예상대로 untracked 상태로 나오네요. 그럼 “애국가1절.txt” 파일을 git의 버전관리 대상(tracked 상태)으로 만들어 보겠습니다.
@@ -115,7 +115,7 @@ git은 폴더(디렉토리) 단위로 저장소를 생성할 수 있습니다.
 </pre>
 
 <img src="https://t1.daumcdn.net/cfile/tistory/272E7B475857C73430"></img>
-[그림 6] git add 명령어를 통한 파일 상태 변경
+##### [그림 6] git add 명령어를 통한 파일 상태 변경
 
 
 add 명령어를 통해 파일의 상태를 변경하였다면 status 명령어로 파일의 상태를 다시한번 확인해보시기 바랍니다. 아마도 [그림 6]과 같이 “애국가1절.txt” 파일이 초록색(tracked 상태)으로 변경되었을 겁니다.
@@ -124,7 +124,7 @@ add 명령어를 통해 파일의 상태를 변경하였다면 status 명령어�
 이제 “애국가1절.txt”는 git의 이력관리 대상이 되었습니다. 그럼 이 상태에서 파일을 수정하면 어떻게 될까요? 현재는 아무 내용도 없는 “애국가1절.txt”파일에 애국가 1절 가사를 입력한 뒤 저장해 보겠습니다.
 
 <img src="https://t1.daumcdn.net/cfile/tistory/253AEA485857C75312"></img>
-[그림 7] 애국가1절 추가 및 저장
+##### [그림 7] 애국가1절 추가 및 저장
 
 
 status 명령어를 통해 상태를 살펴보니 unstaged 상태로 변경되었네요.
@@ -144,7 +144,7 @@ tracked 상태의 파일은 수정이 되면 git이 자동으로 감지하여 un
 </pre>
 
 <img src="https://t1.daumcdn.net/cfile/tistory/263A84485857C78414"></img>
-[그림 9] git add 명령어를 통하여 다시 staged 상태로 된 애국가1절.txt
+##### [그림 9] git add 명령어를 통하여 다시 staged 상태로 된 애국가1절.txt
 
 지금까지 애국가를 1절을 작성하는 고된 작업이 끝나고나니 이 상태를 보관하고 싶어졌습니다.
 
@@ -168,7 +168,7 @@ tracked 상태의 파일은 수정이 되면 git이 자동으로 감지하여 un
 </pre>
 
 <img src="https://t1.daumcdn.net/cfile/tistory/23529A4F5857C7AA16"></img>
-[그림 10] git log 명령어로 커밋메세지와 commit id 확인
+##### [그림 10] git log 명령어로 커밋메세지와 commit id 확인
 
 
 
@@ -180,14 +180,14 @@ tracked 상태의 파일은 수정이 되면 git이 자동으로 감지하여 un
 일단, 실험을 위해 저장소내의 “애국가1절.txt”를 삭제해 보도록 하겠습니다.
 
 <img src="https://t1.daumcdn.net/cfile/tistory/2550294F5857C7D318"></img>
-[그림 11] 사라진 애국가1절.txt
+##### [그림 11] 사라진 애국가1절.txt
 
 
 “애국가1절.txt” 파일이 사라지면 git은 어떻게 판단할까요? status 명령어로 확인해보겠습니다.
 
 
 <img src="https://t1.daumcdn.net/cfile/tistory/233F0E4F5857C7E12B"></img>
-[그림 12] git status로 확인된 deleted 상태의 애국가1절.txt
+##### [그림 12] git status로 확인된 deleted 상태의 애국가1절.txt
 
 
 
@@ -199,7 +199,7 @@ tracked 상태의 파일은 수정이 되면 git이 자동으로 감지하여 un
 
 
 <img src="https://t1.daumcdn.net/cfile/tistory/217F144A5857C7F01D"></img>
-[그림 13] git add & commit 명령어를 통해 애국가1절.txt가 사라진 시점을 커밋
+##### [그림 13] git add & commit 명령어를 통해 애국가1절.txt가 사라진 시점을 커밋
 
 
 
@@ -217,7 +217,7 @@ tracked 상태의 파일은 수정이 되면 git이 자동으로 감지하여 un
 
 
 <img src="https://t1.daumcdn.net/cfile/tistory/23467A4F5857C82225"></img>
-[그림 14] git log 명령어로 조회해본 커밋 기록들
+##### [그림 14] git log 명령어로 조회해본 커밋 기록들
 
 
 git log 명령어로 조회해본 결과 저희는 두건의 커밋 기록이 있네요.
@@ -230,14 +230,14 @@ git log 명령어로 조회해본 결과 저희는 두건의 커밋 기록이 �
 
 
 <img src=""></img>
-[그림 15] git checkout 명령어로 커밋 시점 되돌리기
+##### [그림 15] git checkout 명령어로 커밋 시점 되돌리기
 
 
 git의 커밋 시점이 변경되었습니다. 그럼 윈도우 탐색기로 해당 폴더를 다시 볼까요?
 
 
 <img src="https://t1.daumcdn.net/cfile/tistory/2456F74B5857C8351F"></img>
-[그림 16] git checkout 명령어를 통해 과거 커밋 시점으로 돌아가 파일이 원복된 모습
+##### [그림 16] git checkout 명령어를 통해 과거 커밋 시점으로 돌아가 파일이 원복된 모습
 
 
 checkout 명령어를 통해 과거 커밋 시점으로 되돌아가니 파일이 그대로 존재합니다!
@@ -249,6 +249,7 @@ checkout 명령어를 통해 과거 커밋 시점으로 되돌아가니 파일�
 </pre>
 
 <img src="https://t1.daumcdn.net/cfile/tistory/213CDB495857C86C24"></img>
+<br>
 위 명령어로 파일을 복원하기 앞서, 우리는 과거 커밋시점인 ebf484...에 있습니다.
 
 그렇다면 과거 커밋으로 돌아가기 전인, 마지막 작업 시점으로 돌아가려면 어떻게 해야 할까요? 이때는 다음과 같은 명령어로 현재로 돌아갈 수 있습니다.
@@ -261,7 +262,7 @@ checkout 명령어를 통해 과거 커밋 시점으로 되돌아가니 파일�
 
 
 <img src="https://t1.daumcdn.net/cfile/tistory/27559F4E5857C8790E"></img>
-[그림 17] git checkout master 명령을 통해 마지막 작업 시점으로 복귀
+##### [그림 17] git checkout master 명령을 통해 마지막 작업 시점으로 복귀
 
 
 
@@ -269,7 +270,7 @@ checkout 명령어를 통해 과거 커밋 시점으로 되돌아가니 파일�
 
 
 <img src="https://t1.daumcdn.net/cfile/tistory/26410E4E5857C88924"></img>
-[그림 18] checkout <과거commit id> <복원하고픈 파일명> 명령어로 되살린 파일
+##### [그림 18] checkout <과거commit id> <복원하고픈 파일명> 명령어로 되살린 파일
 
 
 위의 명령어를 수행하고 나니 “애국가1절.txt”가 복원되었습니다! git status 명령어로 파일 상태를 확인하니 unstaged네요. 그렇다면 git add 명령어로 파일을 staged 상태로 만든 뒤, 커밋한다면 지금 상태 또한 새로운  커밋으로 저장할 수 있겠습니다!
