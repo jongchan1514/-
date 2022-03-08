@@ -1,0 +1,5 @@
+nest 모듈생성
+$ nest g module boards
+
+nest 컨트롤러 생성
+$ nest g controller boards --no-spec // 테스트파일 없이 
